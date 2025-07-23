@@ -1,0 +1,116 @@
+body {
+  background: #292b2c;
+  color: #F9F9F9;
+  font-family: "Inter", sans-serif;
+}
+
+.form-group {
+  background-color: rgb(60, 67, 85);
+  border-radius: 1rem;
+  display: inline-block;
+  margin-bottom: 1rem;
+  padding: 1rem;
+}
+
+.form-group .input-group {
+  margin-bottom: 1rem;
+}
+
+.book-frame {
+  align-items: center;
+  background: #2F3B45;
+  background: linear-gradient(180deg, rgba(47, 59, 69, 1) 0%, rgba(15, 12, 12, 1) 100%);
+  display: flex;
+  flex-direction: column;
+  height: 1920px;
+  justify-content: center;
+  width: 1080px;
+}
+
+.book-user {
+  z-index: 9999;
+}
+
+.book-user img {
+  border-radius: 50%;
+  height: 110px;
+  position: relative;
+  margin-top: -2.25rem;
+  top: 2.25rem;
+  width: 110px;
+  z-index: 9999;
+}
+
+.book-cover {
+  z-index: 1;
+}
+
+.book-cover img {
+  border-radius: 1rem;
+  max-width: 663px;
+  z-index: 1;
+}
+
+.book-title {
+  color: #F9F9F9;
+  font-family: "Inika", serif;
+  font-size: 2.75rem;
+  margin-top: 1.75rem;
+  margin-bottom: 0.5rem;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.book-stars {
+  display: flex;
+  gap: 0.35rem;
+}
+
+.fa-star, .fa-star-half {
+  color: #E0AA34;
+  font-size: 3.75rem;
+}
+
+.book-platform {
+  margin-top: 1.75rem;
+}
+
+.button {
+  border-radius: 0.25rem;
+  color: #F9F9F9;
+  display: inline-block;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  padding: 0.5rem 1rem;
+  text-decoration: none;
+}
+
+.form-submit {
+  background: #13709e;
+  transition: all .3s;
+}
+
+.form-submit:hover {
+  background: #307ca1;
+}
+
+.download-button {
+  background: #2a9e13;
+  transition: all .3s;
+}
+
+.download-button:hover {
+  background: #41b829;
+}
+
+.hidden {
+  display: none;
+}
+
+footer p {
+  text-align: center;
+}
+
+footer p a {
+  color: #307ca1;
+}
